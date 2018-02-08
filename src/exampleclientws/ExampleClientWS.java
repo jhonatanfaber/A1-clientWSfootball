@@ -10,8 +10,6 @@ public class ExampleClientWS {
     public static void main(String[] args) {
         System.out.println("Yellow card total: "+ yellowCardsTotal());
         
-        //ArrayOfString lista = allDefenders("spain");
-        //System.out.println("Spanish Defenders: " + lista.getString());
         for (TCountryInfo country : getCountryName()) {
             System.out.println("Country: "+ country.getSName());
             System.out.println("Defenders: "+ allDefenders(country.getSName()).getString());
