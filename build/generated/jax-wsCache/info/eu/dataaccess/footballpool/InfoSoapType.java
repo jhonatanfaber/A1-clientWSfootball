@@ -132,8 +132,8 @@ public interface InfoSoapType {
     /**
      * Returns an array with players that have a red or a yellow card. Note: You can only sort on Name, Yellow or Red cards, not on a combination.
      * 
-     * @param bSortedByYellowCards
      * @param bSortedByName
+     * @param bSortedByYellowCards
      * @param bSortedByRedCards
      * @return
      *     returns eu.dataaccess.footballpool.ArrayOftPlayersWithCards
@@ -153,8 +153,8 @@ public interface InfoSoapType {
     /**
      * Returns an array with players that have a yellow card. Note: You can only sort on Name or Yellow cards, not on a combination.
      * 
-     * @param bSortedByYellowCards
      * @param bSortedByName
+     * @param bSortedByYellowCards
      * @return
      *     returns eu.dataaccess.footballpool.ArrayOftPlayersWithCards
      */
